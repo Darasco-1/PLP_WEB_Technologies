@@ -62,7 +62,7 @@ a{
 a:hover{
     color: lightblue;
     text-decoration:underline;
-    background-color: rgba(139,0,0,0.3);
+    background-color: rgba(139,0,0,0.5);
 }
 
 a:visited{
@@ -82,4 +82,11 @@ body {
         background-repeat: repeat;
         background-color: rgba(255, 255, 255, 0.4); /* Semi-transparent overlay */
         background-blend-mode: color-burn; /* Choose the blending mode you prefer */
+}
+
+img{
+    border: 10px;
+    border-style: ridge;
+    border-radius: 0px 50px 0px 20px;
+    border-color:black;
 }
