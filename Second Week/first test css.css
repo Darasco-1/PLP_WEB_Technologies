@@ -90,3 +90,31 @@ img{
     border-radius: 0px 50px 0px 20px;
     border-color:black;
 }
+
+ul, ol {
+    padding-left: 50px;
+}
+
+li{
+    font-family: Arial, sans-seriff;
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 10px; /* gives space between the bottom of the previous item and the top of the next item */
+}
+
+li:hover{
+    color:#ff6347;
+    cursor:copy;
+    text-decoration: underline;
+}
+
+.squarelist{
+    list-style-type: square;
+    padding-left: 30px;
+}
+
+ul{
+    column-count: 4;
+    column-gap: 10px;
+    color: purple;
+}
