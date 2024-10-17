@@ -135,14 +135,68 @@ li::before{
 }
 
 li:hover::before{
-    transform: scale(2.0);
+    transform: scale(1.5);
 }
 
 form{
-    background-color: rgba(255, 255, 255, 0.9);
-    height: 250px;
-    width: 20%;
+    background-color: rgba(173, 216, 230, 0.6);
+    height: 350px;
+    width: 25%;
     display: block;
     margin-bottom: 20px;
     padding: 30px;
+    border: 1px solid whitesmoke ;
+    border-radius: 20px;
+}
+
+label{
+    font-family : "Open sans", sans-serif;
+    font-weight: bold;
+    margin-bottom: 50px;
+
+}
+
+input{
+    border: 1px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    margin: 5px;
+    height: 20px;
+    width: 225px;
+}
+
+input:focus{
+    background-color: lightgrey;
+}
+
+textarea{
+    border: 1px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3px;
+    margin: 5px;
+    width: 100%;
+}
+
+button{
+    border: 1px;
+    border-radius: 20px;
+    height:35px;
+    width: 30%;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-color: rgb(117, 198, 224);
+}
+
+input.a{
+    border: 1px;
+    border-radius: 20px;
+    height:35px;
+    width: 30%;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-color:  rgb(117, 198, 224);
 }

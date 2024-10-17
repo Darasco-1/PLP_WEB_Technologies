@@ -1,0 +1,29 @@
+selector { property: value;}
+
+/* universal Selector */
+* { Property: value;}
+
+/* id selector */
+#id-name { Property: value;}
+
+/* element selector: means all the html elements with that specific name i.e <p=paragraph> <a=link> <h1= header tag> <body> <table>
+Note it will style all the elements as in i.e all table or all paragraph in the html file. */
+body { Property: value;}
+table{ property: value;}
+p { property: value;}
+
+/* class selector */
+.class-name { Property: value;}
+/* if one html file i want to design all my pieces of text such as header, paragraph, etc. i can define a class attribute on this item*/
+<p class="text-highlight">
+/* i.e you can create a class that will turn a text blue. Sounds like functions in python and javascript
+
+/* pseudo class selector */
+/* Used to style a specific state,i.e active state, inactive state, focus state, hover state, */
+a :hover { property: value;}
+
+/* style a group of elements */
+p, h2, h4, a {property: value;}
+
+/*Then moved to how to include CSS in a webpage.*/
+
