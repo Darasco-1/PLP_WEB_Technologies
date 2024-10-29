@@ -67,13 +67,110 @@ img:hover{
     margin: 20px 0 20px 0;
 }
 
-.gradient1{
+#gradient1{
     /* background-image: linear-gradient(direction or angle, color-stop1, color-stop2); */
-    background-image: radial-gradient(green,violet, rgb(253, 255, 0)) ;
+    background-image: radial-gradient(circle,green,violet, rgb(253, 255, 0)) ;
     display: block;
     height: 250px;
     width: 500px;
     text-align: center;
     padding: 30px;
     margin: 20px 0 20px 0;
+}
+
+/* Navigation bar (Vertical Bar) */
+.vertical-link ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+ .vertical-link li a{
+    display: block;
+    color: black ;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.vertical-link li a:hover{
+    background-color: grey;
+    color: whitesmoke;
+}
+
+.vertical-link li a.active{
+    background-color: purple;
+    color: whitesmoke;
+}
+
+.vertical-link li a:hover:not(.active){
+    background-color: #555;
+    color: whitesmoke;
+}
+
+/* okay wraping the vertical link in a class called vertical link resolved the clashing problems of the styles 
+i had and also allowed the styles for the horizontal link to work here */
+
+/* Styles for the horizontal navbar begins here. */
+
+/* .horizontal-link ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(5, 58, 5);
+} */
+
+/*.horizontal-link li{
+    display: inline;
+} */
+
+/* .horizontal-link li a{
+    text-align: center;
+    padding: 14px 16px;
+    color: whitesmoke;
+    text-decoration: none;
+} */
+
+.horizontal-link ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.horizontal-link li{
+    float: left;
+    border-right: 2px solid black;
+}
+
+.horizontal-link li:last-child{
+    border: none;
+}
+
+.horizontal-link li a{
+    display: block;
+    color: red;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+}
+
+.horizontal-link li a:hover{
+    background-color: grey;
+    color: whitesmoke;
+}
+
+.horizontal-link li a.active1{
+    background-color: #555;
+    color: white;
+}
+
+.horizontal li a:hover:not(.active1){
+    background-color: #f1f1f1;
+    color: black;
 }
